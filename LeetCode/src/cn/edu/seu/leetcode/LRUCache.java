@@ -2,7 +2,7 @@ package cn.edu.seu.leetcode;
 
 import java.util.LinkedHashMap;
 
-//trick method: using LinkedHashMap
+//Trick method: using LinkedHashMap
 public class LRUCache {
 	private LinkedHashMap<Integer, Integer> cacheMap;
 	private final int capacity;
