@@ -2,6 +2,7 @@ package cn.edu.seu.leetcode;
 
 import java.util.HashMap;
 
+//
 public class LongestSubstringWithoutRepeatingCharacters {
 	public int lengthOfLongestSubstring(String s) {
 		if (s.length() == 0)
