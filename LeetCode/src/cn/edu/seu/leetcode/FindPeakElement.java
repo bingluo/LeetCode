@@ -1,5 +1,6 @@
 package cn.edu.seu.leetcode;
 
+//
 public class FindPeakElement {
 	public int findPeakElement(int[] num) {
 		if (num.length == 1)
