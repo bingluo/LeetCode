@@ -20,22 +20,21 @@ public class RotateArray {
 	// O(1) solution
 	public static class SolutionO1 {
 		public static void rotate(int[] nums, int k) {
-			int length = nums.length;
-			k = k % length;
+			if (nums.length < 2)
+				return;
+			int len = nums.length;
 			int initial = 0;
-			int tempA = nums[0];
-			int tempB;
 			int index = 0;
-			int toIndex;
-			for (int i = 0; i < length; i++) {
-				toIndex = (index + k) % length;
-				tempB = nums[toIndex];
-				nums[toIndex] = tempA;
-				tempA = tempB;
+			int value = nums[0];
+			for (int i = 0; i < len; i++) {
+				int toIndex = (index + k) % len;
+				int temp = nums[toIndex];
+				nums[toIndex] = value;
+				value = temp;
 				index = toIndex;
 				if (index == initial) {
-					index = ++initial;
-					tempA = nums[index];
+					index = ++initial % len;
+					value = nums[index];
 				}
 			}
 		}
