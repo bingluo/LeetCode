@@ -1,5 +1,6 @@
 package cn.edu.seu.leetcode;
 
+
 public class MinimumDepthOfBinaryTree {
 	public int minDepth(TreeNode root) {
 		if (root == null)
