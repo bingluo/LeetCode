@@ -1,16 +1,6 @@
 package cn.edu.seu.leetcode;
 
 public class AddTwoNumbers {
-	// Definition for singly-linked list.
-	public class ListNode {
-		int val;
-		ListNode next;
-
-		ListNode(int x) {
-			val = x;
-			next = null;
-		}
-	}
 
 	private int carry = 0;
 

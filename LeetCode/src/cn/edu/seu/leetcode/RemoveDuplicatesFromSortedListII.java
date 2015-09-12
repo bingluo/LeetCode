@@ -1,7 +1,5 @@
 package cn.edu.seu.leetcode;
 
-import cn.edu.seu.leetcode.AddTwoNumbers.ListNode;
-
 public class RemoveDuplicatesFromSortedListII {
 	public ListNode deleteDuplicates(ListNode head) {
 		ListNode newHead = null;

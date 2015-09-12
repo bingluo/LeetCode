@@ -1,6 +1,5 @@
 package cn.edu.seu.leetcode;
 
-import cn.edu.seu.leetcode.AddTwoNumbers.ListNode;
 /**
  * Definition for singly-linked list.
  * public class ListNode {
